@@ -8,3 +8,4 @@
 4. Creating Event Handlers [x]
 5. Uncontrolled vs Controlled Elements [x]
 6. Handleing Form Submittal [x]
+7. Solving Contxt Issues [x]
