@@ -17,3 +17,7 @@
 2. Viewing Request Results [x]
 3. Handling Requests with Async Await [x]
 4. Binding Callbacks using Arrow Function [x]
+
+### Building Lists of Records
+
+1. Rendering Lists [x]
