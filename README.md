@@ -13,4 +13,5 @@
 
 ### Making API Requests with React
 
-1. Install Axios
+1. Install Axios [x]
+2. Viewing Request Results [x]

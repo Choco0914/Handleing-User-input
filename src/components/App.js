@@ -1,10 +1,10 @@
 import React from "react";
-import axios from "axios";
 import SearchBar from "./SearchBar";
+import { getPhoto } from "./api";
 
 class App extends React.Component {
   onSearchSubmit(term) {
-    console.log(term);
+    getPhoto(term);
   }
 
   render() {
