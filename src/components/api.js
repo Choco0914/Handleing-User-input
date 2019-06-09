@@ -8,8 +8,7 @@ const api = axios.create({
   }
 });
 
-export const getPhoto = term => {
+export const getPhoto = term =>
   api.get("search/photos", {
     params: { query: term }
   });
-};

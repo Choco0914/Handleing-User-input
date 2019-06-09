@@ -15,3 +15,4 @@
 
 1. Install Axios [x]
 2. Viewing Request Results [x]
+3. Handling Requests with Async Await [x]
