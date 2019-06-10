@@ -21,3 +21,4 @@
 ### Building Lists of Records
 
 1. Rendering Lists [x]
+2. Rendering Lists of Components [x]
