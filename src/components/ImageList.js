@@ -1,12 +1,12 @@
+import "./ImageList.css";
 import React from "react";
 
 const ImageList = ({ images }) => {
-  console.log(images);
-  const imgList = images.map(image => {
-    return <img src={image.urls.regular} alt={image.alt_description} />;
+  const imgList = images.map(({ urls, id, alt_description }) => {
+    return <img key={id} src={urls.regular} alt={alt_description} />;
   });
 
-  return <div>{imgList}</div>;
+  return <div className="image-list">{imgList}</div>;
 };
 
 export default ImageList;
